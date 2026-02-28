@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    height: 1100px;
+    border: 1px solid black;
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)),url(images/Hero.jpg) ;
+}
+
+.logo-nav {
+    height: 80px;
+}
+
+.logo {
+    width: 200px;
+    position: relative;
+    left: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.singin-box {
+    position: relative;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+    /* backdrop-filter: blur(10px); */
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.signin-inner {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 12px;
+}
+
+.signin-inner h1 {
+    color: white;
+}
+
+.input,button {
+    width: 100%;
+    padding: 20px;
+    border:0.5px solid #9e9d9d;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color:white;
+    background-color: #161616;
+
+}
+.input {
+    font-size:1rem ;
+}
+
+button {
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    transition: 0.2s ease-out;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #bb0e17;
+}
+
+.forgot {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rest{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.para {
+    margin-top: 16px;
+    color: #aaa;
+}
+
+/* footer */
+
+.container {
+    position: relative;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0px;
+}
+
+.links-area {
+    margin: 100px 80px 10px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.flex-div a {
+    display: block;
+    margin-bottom: 30px;
+    color: #aaa;
+    transition:all 0.2s ease-out  ;
+}
+
+.flex-div a:hover {
+    scale: 1.3;
+}
+
+.owner {
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.owner p {
+    color: #aaa;
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+}
+
+.owner p:hover {
+    color: white;
+    scale: 1.5;
+}
