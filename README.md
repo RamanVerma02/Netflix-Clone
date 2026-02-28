@@ -4,7 +4,7 @@ A **responsive Netflix UI clone** built using **pure HTML and CSS**.
 This project was created for **practice and learning purposes** to understand layout structuring, responsiveness, and modern UI design.
 
 🔗 **Live Demo:**  
-https://ramanverma02.github.io/Netflix-Clone/
+👉https://ramanverma02.github.io/Netflix-Clone/
 
 ---
 
